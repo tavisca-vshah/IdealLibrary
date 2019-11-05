@@ -1,0 +1,12 @@
+C:\dotnetproject\Webapi\KevinDockx\KevinDockx_RESTfulAPIAspNetCore\asp-dot-net-core-restful-api-building\07\demos\csproj-msbuild_core2\end\Library\src\Library.API\bin\Debug\netcoreapp2.0\nlog.config
+C:\dotnetproject\Webapi\KevinDockx\KevinDockx_RESTfulAPIAspNetCore\asp-dot-net-core-restful-api-building\07\demos\csproj-msbuild_core2\end\Library\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.deps.json
+C:\dotnetproject\Webapi\KevinDockx\KevinDockx_RESTfulAPIAspNetCore\asp-dot-net-core-restful-api-building\07\demos\csproj-msbuild_core2\end\Library\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.runtimeconfig.json
+C:\dotnetproject\Webapi\KevinDockx\KevinDockx_RESTfulAPIAspNetCore\asp-dot-net-core-restful-api-building\07\demos\csproj-msbuild_core2\end\Library\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.runtimeconfig.dev.json
+C:\dotnetproject\Webapi\KevinDockx\KevinDockx_RESTfulAPIAspNetCore\asp-dot-net-core-restful-api-building\07\demos\csproj-msbuild_core2\end\Library\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.dll
+C:\dotnetproject\Webapi\KevinDockx\KevinDockx_RESTfulAPIAspNetCore\asp-dot-net-core-restful-api-building\07\demos\csproj-msbuild_core2\end\Library\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.pdb
+C:\dotnetproject\Webapi\KevinDockx\KevinDockx_RESTfulAPIAspNetCore\asp-dot-net-core-restful-api-building\07\demos\csproj-msbuild_core2\end\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.csprojAssemblyReference.cache
+C:\dotnetproject\Webapi\KevinDockx\KevinDockx_RESTfulAPIAspNetCore\asp-dot-net-core-restful-api-building\07\demos\csproj-msbuild_core2\end\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.csproj.CoreCompileInputs.cache
+C:\dotnetproject\Webapi\KevinDockx\KevinDockx_RESTfulAPIAspNetCore\asp-dot-net-core-restful-api-building\07\demos\csproj-msbuild_core2\end\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.AssemblyInfoInputs.cache
+C:\dotnetproject\Webapi\KevinDockx\KevinDockx_RESTfulAPIAspNetCore\asp-dot-net-core-restful-api-building\07\demos\csproj-msbuild_core2\end\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.AssemblyInfo.cs
+C:\dotnetproject\Webapi\KevinDockx\KevinDockx_RESTfulAPIAspNetCore\asp-dot-net-core-restful-api-building\07\demos\csproj-msbuild_core2\end\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.dll
+C:\dotnetproject\Webapi\KevinDockx\KevinDockx_RESTfulAPIAspNetCore\asp-dot-net-core-restful-api-building\07\demos\csproj-msbuild_core2\end\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.pdb

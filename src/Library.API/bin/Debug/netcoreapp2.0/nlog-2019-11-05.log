@@ -1,0 +1,167 @@
+2019-11-05 09:23:11.2661|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\vshah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-05 09:23:13.6872|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.0-rtm-26452 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-05 09:23:24.0043|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-11-05 09:23:24.0414|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-11-05 09:23:24.0939|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-11-05 09:23:24.1356|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-11-05 09:23:25.6653|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[FirstName], [a].[Genre], [a].[LastName]
+FROM [Authors] AS [a]
+2019-11-05 09:23:26.0154|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (130ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Authors]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Authors]
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Authors]
+WHERE [Id] = @p2;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Authors]
+WHERE [Id] = @p3;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Authors]
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;
+
+DELETE FROM [Authors]
+WHERE [Id] = @p5;
+SELECT @@ROWCOUNT;
+2019-11-05 09:23:26.1984|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (22ms) [Parameters=[@p0='?', @p1='?', @p2='?' (Size = 50), @p3='?' (Size = 50), @p4='?' (Size = 50), @p5='?', @p6='?', @p7='?' (Size = 50), @p8='?' (Size = 50), @p9='?' (Size = 50), @p10='?', @p11='?', @p12='?' (Size = 50), @p13='?' (Size = 50), @p14='?' (Size = 50), @p15='?', @p16='?', @p17='?' (Size = 50), @p18='?' (Size = 50), @p19='?' (Size = 50), @p20='?', @p21='?', @p22='?' (Size = 50), @p23='?' (Size = 50), @p24='?' (Size = 50), @p25='?', @p26='?', @p27='?' (Size = 50), @p28='?' (Size = 50), @p29='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Authors] ([Id], [DateOfBirth], [FirstName], [Genre], [LastName])
+VALUES (@p0, @p1, @p2, @p3, @p4),
+(@p5, @p6, @p7, @p8, @p9),
+(@p10, @p11, @p12, @p13, @p14),
+(@p15, @p16, @p17, @p18, @p19),
+(@p20, @p21, @p22, @p23, @p24),
+(@p25, @p26, @p27, @p28, @p29);
+2019-11-05 09:23:26.2462|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (14ms) [Parameters=[@p30='?', @p31='?', @p32='?' (Size = 500), @p33='?' (Size = 100), @p34='?', @p35='?', @p36='?' (Size = 500), @p37='?' (Size = 100), @p38='?', @p39='?', @p40='?' (Size = 500), @p41='?' (Size = 100), @p42='?', @p43='?', @p44='?' (Size = 500), @p45='?' (Size = 100), @p46='?', @p47='?', @p48='?' (Size = 500), @p49='?' (Size = 100), @p50='?', @p51='?', @p52='?' (Size = 500), @p53='?' (Size = 100), @p54='?', @p55='?', @p56='?' (Size = 500), @p57='?' (Size = 100), @p58='?', @p59='?', @p60='?' (Size = 500), @p61='?' (Size = 100), @p62='?', @p63='?', @p64='?' (Size = 500), @p65='?' (Size = 100), @p66='?', @p67='?', @p68='?' (Size = 500), @p69='?' (Size = 100), @p70='?', @p71='?', @p72='?' (Size = 500), @p73='?' (Size = 100)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Books] ([Id], [AuthorId], [Description], [Title])
+VALUES (@p30, @p31, @p32, @p33),
+(@p34, @p35, @p36, @p37),
+(@p38, @p39, @p40, @p41),
+(@p42, @p43, @p44, @p45),
+(@p46, @p47, @p48, @p49),
+(@p50, @p51, @p52, @p53),
+(@p54, @p55, @p56, @p57),
+(@p58, @p59, @p60, @p61),
+(@p62, @p63, @p64, @p65),
+(@p66, @p67, @p68, @p69),
+(@p70, @p71, @p72, @p73);
+2019-11-05 09:23:27.5507|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:6058/  
+2019-11-05 09:23:27.5507|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:6058/  0
+2019-11-05 09:23:27.7694|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 234.6283ms 200 
+2019-11-05 09:23:28.5802|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 801.6583ms 404 
+2019-11-05 09:24:31.9928|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:6058/api/authors  
+2019-11-05 09:24:32.1801|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.0-rtm-26452 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-05 09:24:32.2268|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-11-05 09:24:32.2862|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-11-05 09:24:32.3632|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-11-05 09:24:32.3932|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-11-05 09:24:32.4575|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Library.API.Controllers.AuthorsController.GetAuthors (Library.API) with arguments (Library.API.Helpers.AuthorsResourceParameters) - ModelState is Valid
+2019-11-05 09:24:32.5254|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Authors] AS [a]
+2019-11-05 09:24:32.5612|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__p_0='?', @__p_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[FirstName], [a].[Genre], [a].[LastName]
+FROM [Authors] AS [a]
+ORDER BY [a].[FirstName], [a].[LastName]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2019-11-05 09:24:32.7966|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2019-11-05 09:24:32.8810|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Library.API.Controllers.AuthorsController.GetAuthors (Library.API) in 720.9514ms
+2019-11-05 09:24:32.9020|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 906.864ms 200 application/json; charset=utf-8
+2019-11-05 09:28:35.1011|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:6058/api/authors?searchQuery=a  
+2019-11-05 09:28:35.1449|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.0-rtm-26452 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-05 09:28:35.1825|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-11-05 09:28:35.1981|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-11-05 09:28:35.2190|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-11-05 09:28:35.2330|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-11-05 09:28:35.2618|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Library.API.Controllers.AuthorsController.GetAuthors (Library.API) with arguments (Library.API.Helpers.AuthorsResourceParameters) - ModelState is Valid
+2019-11-05 09:28:35.3139|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'where (([a].Genre.ToLowerInvariant().Contains(__searchQueryForWhereClause_0) OrElse [a].FirstName.ToLowerInvariant().Contains(__searchQueryForWhereClause_1)) OrElse [a].LastName.ToLowerInvariant().Contains(__searchQueryForWhereClause_2))' could not be translated and will be evaluated locally.
+2019-11-05 09:28:35.3433|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'Count()' could not be translated and will be evaluated locally.
+2019-11-05 09:28:35.3782|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Genre], [a].[FirstName], [a].[LastName]
+FROM [Authors] AS [a]
+2019-11-05 09:28:35.5839|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'where (([a].Genre.ToLowerInvariant().Contains(__searchQueryForWhereClause_0) OrElse [a].FirstName.ToLowerInvariant().Contains(__searchQueryForWhereClause_1)) OrElse [a].LastName.ToLowerInvariant().Contains(__searchQueryForWhereClause_2))' could not be translated and will be evaluated locally.
+2019-11-05 09:28:35.6527|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'Skip(__p_3)' could not be translated and will be evaluated locally.
+2019-11-05 09:28:35.6691|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'Take(__p_4)' could not be translated and will be evaluated locally.
+2019-11-05 09:28:35.6911|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[FirstName], [a].[Genre], [a].[LastName]
+FROM [Authors] AS [a]
+ORDER BY [a].[FirstName], [a].[LastName]
+2019-11-05 09:28:35.7091|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2019-11-05 09:28:35.7256|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Library.API.Controllers.AuthorsController.GetAuthors (Library.API) in 600.9057ms
+2019-11-05 09:28:35.7402|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 634.7555ms 200 application/json; charset=utf-8
+2019-11-05 09:28:43.1805|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:6058/api/authors?searchQuery=a&genre=Fantasy  
+2019-11-05 09:28:43.1923|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.0-rtm-26452 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-05 09:28:43.1923|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-11-05 09:28:43.2218|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-11-05 09:28:43.2548|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-11-05 09:28:43.2548|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-11-05 09:28:43.2836|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Library.API.Controllers.AuthorsController.GetAuthors (Library.API) with arguments (Library.API.Helpers.AuthorsResourceParameters) - ModelState is Valid
+2019-11-05 09:28:43.2983|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'where ([a].Genre.ToLowerInvariant() == __genreForWhereClause_0)' could not be translated and will be evaluated locally.
+2019-11-05 09:28:43.3131|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'where (([a].Genre.ToLowerInvariant().Contains(__searchQueryForWhereClause_1) OrElse [a].FirstName.ToLowerInvariant().Contains(__searchQueryForWhereClause_2)) OrElse [a].LastName.ToLowerInvariant().Contains(__searchQueryForWhereClause_3))' could not be translated and will be evaluated locally.
+2019-11-05 09:28:43.3231|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'Count()' could not be translated and will be evaluated locally.
+2019-11-05 09:28:43.3442|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Genre], [a].[FirstName], [a].[LastName]
+FROM [Authors] AS [a]
+2019-11-05 09:28:43.3607|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'where ([a].Genre.ToLowerInvariant() == __genreForWhereClause_0)' could not be translated and will be evaluated locally.
+2019-11-05 09:28:43.4004|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'where (([a].Genre.ToLowerInvariant().Contains(__searchQueryForWhereClause_1) OrElse [a].FirstName.ToLowerInvariant().Contains(__searchQueryForWhereClause_2)) OrElse [a].LastName.ToLowerInvariant().Contains(__searchQueryForWhereClause_3))' could not be translated and will be evaluated locally.
+2019-11-05 09:28:43.4139|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'Skip(__p_4)' could not be translated and will be evaluated locally.
+2019-11-05 09:28:43.4281|WARN|Microsoft.EntityFrameworkCore.Query|The LINQ expression 'Take(__p_5)' could not be translated and will be evaluated locally.
+2019-11-05 09:28:43.5650|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[FirstName], [a].[Genre], [a].[LastName]
+FROM [Authors] AS [a]
+ORDER BY [a].[FirstName], [a].[LastName]
+2019-11-05 09:28:43.5937|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2019-11-05 09:28:43.6041|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Library.API.Controllers.AuthorsController.GetAuthors (Library.API) in 412.5298ms
+2019-11-05 09:28:43.6261|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 443.1761ms 200 application/json; charset=utf-8
+2019-11-05 09:28:49.2799|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:6058/api/authors?searchQuery=a&genre=Fantasy&pageNumber=2&pageSize=2  
+2019-11-05 09:28:49.3008|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.0-rtm-26452 initialized 'LibraryContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2019-11-05 09:28:49.3164|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-11-05 09:28:49.3358|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'__EFMigrationsHistory');
+2019-11-05 09:28:49.3525|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2019-11-05 09:28:49.3696|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2019-11-05 09:28:49.4029|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method Library.API.Controllers.AuthorsController.GetAuthors (Library.API) with arguments (Library.API.Helpers.AuthorsResourceParameters) - ModelState is Valid
+2019-11-05 09:28:49.4352|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Genre], [a].[FirstName], [a].[LastName]
+FROM [Authors] AS [a]
+2019-11-05 09:28:49.4540|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[DateOfBirth], [a].[FirstName], [a].[Genre], [a].[LastName]
+FROM [Authors] AS [a]
+ORDER BY [a].[FirstName], [a].[LastName]
+2019-11-05 09:28:49.4813|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2019-11-05 09:28:49.5165|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action Library.API.Controllers.AuthorsController.GetAuthors (Library.API) in 215.7406ms
+2019-11-05 09:28:49.5622|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 249.3672ms 200 application/json; charset=utf-8
